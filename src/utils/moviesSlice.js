@@ -1,5 +1,4 @@
 import {createSlice} from "@reduxjs/toolkit";
-import reducer from "./userSlice";
 
 const moviesSlice = createSlice({
     name: "movies",
