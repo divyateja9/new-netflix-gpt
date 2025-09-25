@@ -84,7 +84,7 @@ const Header = () => {
           onClick={toggleGptSearch}
           className="py-2 px-2 mx-2 bg-purple-800 text-white rounded-lg"
         >
-         {showGptSearch ? "GPT Search" : "Home Page"}
+         {showGptSearch ? "Home Page" : "GPT Search"}
         </button>
         {user?.photoURL && (
           <img

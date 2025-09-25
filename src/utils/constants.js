@@ -15,4 +15,7 @@ export const BG_URL = "https://assets.nflxext.com/ffe/siteui/vlv3/8d617e19-3c3c-
 export const SUPPORTED_LANGUAGES =[{identifier:"en",name:"English"},
 {identifier:"hindi",name:"Hindi"},
 {identifier:"spanish",name:"Spanish"}
+
 ]
+
+export const OPEN_Ai_APIKEY = "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";
