@@ -4,7 +4,7 @@ export const API_OPTIONS = {
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkYTc3ZWMzZWM4NzJmYTM0MTcxN2ZkODVhOTYwMzc5NCIsIm5iZiI6MTc1ODEzMDU2NC4zNTYsInN1YiI6IjY4Y2FmMTg0OWNkNzA3ZTMxNzY4MzZmOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.fnuo3yzBGBTP_8_WI0xLb3HrSy45L2kY7Sd6MrsXzIQ'
+    Authorization: 'Bearer ' + import.meta.env.VITE_REACT_APP_TMDB_API_KEY
   }
 };
 
@@ -18,4 +18,4 @@ export const SUPPORTED_LANGUAGES =[{identifier:"en",name:"English"},
 
 ]
 
-export const OPEN_Ai_APIKEY = "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";
+export const OPEN_Ai_APIKEY = import.meta.env.VITE_REACT_APP_OPEN_AI_KEY;
